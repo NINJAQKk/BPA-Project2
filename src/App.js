@@ -24,7 +24,7 @@ const allClasses = [
     'subject': 'Honda Civic',
     'logo': Civic,
     'manufacturer': "Honda",
-    'price': "$25,000",
+    'price': "$22,999",
     'year': "2017",
     'availability': '5',
     'color': 'White',
@@ -34,7 +34,7 @@ const allClasses = [
     'subject': 'Chevy Silverado',
     'logo': Silverado,
     'manufacturer': "Chevy",
-    'price': "$36,000",
+    'price': "$27,999",
     'year': "2012",
     'availability': '2',
     'color': 'Blue',
@@ -44,7 +44,7 @@ const allClasses = [
     'subject': 'Ram Pickup',
     'logo': Pickup,
     'manufacturer': "Ram",
-    'price': "$39,000",
+    'price': "$34,999",
     'year': "2021",
     'availability': '3',
     'color': 'Red',
@@ -54,7 +54,7 @@ const allClasses = [
     'subject': 'Toyota Camry',
     'logo': Camry,
     'manufacturer': "Toyota",
-    'price': "$22,000",
+    'price': "$14,999",
     'year': "2011",
     'availability': '7',
     'color': 'Blue',
@@ -64,7 +64,7 @@ const allClasses = [
     'subject': 'Tesla Model S',
     'logo': ModelS,
     'manufacturer': "Tesla",
-    'price': "$100,000",
+    'price': "$59,999",
     'year': "2016",
     'availability': '1',
     'color': 'Red',
@@ -74,7 +74,7 @@ const allClasses = [
     'subject': 'Ford Explorer',
     'logo': Explorer,
     'manufacturer': "Ford",
-    'price': "$42,000",
+    'price': "$35,999",
     'year': "2019",
     'availability': '3',
     'color': 'Red',
@@ -119,7 +119,7 @@ const allPeople = [
 ]
 
 function App() {
-  const [tutor, setTutor] = useState([{'subject': 'Add More', 'logo': Plus}])
+  const [tutor, setTutor] = useState([{'subject': 'Add More', 'logo': Plus, 'link': true, 'page': 'tutor'}])
   const [learn, setLearn] = useState([{'subject': 'Add More', 'logo': Plus}])
   const [indix, setIndix] = useState([])
   const [indox, setIndox] = useState([])

@@ -14,7 +14,7 @@ export default function Dashboard(props) {
   }
 
   function handleOnLoan() {
-    setMsg("With a 10% interest rate, in order to pay back a loan of $" + amount + " over a period of " + time + " months, you will need to pay $"  + (parseInt(amount) / parseInt(time) * 1.1) + " a month.")
+    setMsg("With a 10% interest rate, in order to pay back a loan of $" + amount + " over a period of " + time + " months, you will need to pay $"  + (parseInt(amount) / parseInt(time) * 1.1).toFixed(2) + " a month.")
   }
 
   const handleAChange = e => {
@@ -22,7 +22,7 @@ export default function Dashboard(props) {
   }
 
   const handleBChange = e => {
-    setTime(e.target.value)
+    setTime(parseInt(e.target.value) > 0 ? e.target.value : "1")
   }
 
   return (
@@ -60,7 +60,7 @@ export default function Dashboard(props) {
         <br />
         <div className='dblist'>{msg}</div>
         <br /><br />  
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScqulwaFGvMx2efLTNftSOxXA0kzF7PCIU33vXbCwu-TNe3zA/viewform"><u><h1>Contact Us</h1></u></a>
+        <a /*href="https://docs.google.com/forms/d/e/1FAIpQLScqulwaFGvMx2efLTNftSOxXA0kzF7PCIU33vXbCwu-TNe3zA/viewform"*/><u><h1>Contact Us</h1></u></a>
         <div>.</div>
     </div>
   )
