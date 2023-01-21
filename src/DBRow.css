@@ -1,0 +1,28 @@
+.dbrall {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    width: 95%;
+}
+
+.dbrsa {
+    margin-right: 5%;
+    font-size: 3em;
+}
+
+.dbrt {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.dbrtop {
+    display: flex;
+}
+
+.rowcard {
+    width: 20%;
+    margin: 10px;
+}

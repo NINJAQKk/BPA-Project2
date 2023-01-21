@@ -1,0 +1,51 @@
+.dbcall {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.dbcitem {
+    width: 80%;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.dbclogo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dbcname {
+    display: block;
+    text-align: center;
+}
+
+.tutor {
+    width: 50%;
+    overflow: hidden;
+    display: inline;
+}
+
+.tutoritem {
+    display: inline-block;
+    overflow: hidden;
+    margin: 20px;
+    width: 40%;
+}
+
+.tutorbuttons {
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-left: 100px;
+}

@@ -1,0 +1,29 @@
+.addbutton {
+    border: 0;
+    border-radius: 0;
+    margin: 3px;
+    font-size: 1.5em;
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.addbutton:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.abimg {
+    width: 90%;
+}
+
+.abcontainer {
+    display: inline;
+    min-height: 600px;
+}
